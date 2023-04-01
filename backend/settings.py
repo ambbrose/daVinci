@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['davinci-production.up.railway.app']
 # Application definition
 
 INSTALLED_APPS = [
-#     'jazzmin',
+    'jazzmin',
 
     'django.contrib.admin',
     'django.contrib.auth',
@@ -150,16 +150,16 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 # CORS_ALLOWED_ORIGINS = ['https://localhost:3000']
 CORS_ALLOW_ALL_ORIGINS = True
 
-# JAZZMIN_SETTINGS = {
-#     "site_title": "TonyDaVinci",
-#     "site_header": "TonyDaVinci",
-#     "site_brand": "TonyDaVinci",
-#     "site_logo": "site_logo/logo1.png",
-#     "site_logo_classes": "img-circle",
-#     "copyright": "CodeVeegan"
-# }
+JAZZMIN_SETTINGS = {
+    "site_title": "TonyDaVinci",
+    "site_header": "TonyDaVinci",
+    "site_brand": "TonyDaVinci",
+    "site_logo": "site_logo/logo1.png",
+    "site_logo_classes": "img-circle",
+    "copyright": "CodeVeegan"
+}
 
-CSRF_COOKIE_SECURE = False
+# CSRF_COOKIE_SECURE = False
 
 PAYSTACK_SECRET_KEY = "sk_test_bd42487c62788a21e2f5d81ad8859bf19a088e45"
 PAYSTACK_PUBLIC_KEY = "pk_test_f62d0f4f64114752e0e13036ee9ded9c4640b11d"
