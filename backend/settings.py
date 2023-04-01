@@ -159,6 +159,8 @@ JAZZMIN_SETTINGS = {
     "copyright": "CodeVeegan"
 }
 
+CSRF_COOKIE_SECURE = False
+
 PAYSTACK_SECRET_KEY = "sk_test_bd42487c62788a21e2f5d81ad8859bf19a088e45"
 PAYSTACK_PUBLIC_KEY = "pk_test_f62d0f4f64114752e0e13036ee9ded9c4640b11d"
 # Default primary key field type
